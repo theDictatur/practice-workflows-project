@@ -26,9 +26,6 @@ on: push
         - name: Deploy to production
           run: |
             echo "Deploying to production..."
+            
             # Add your deployment commands here   
   
-      - name: Notify team after deployment      
-        run: |
-          echo "Deployment successful! Notifying team..."
-          # Add your notification commands here (e.g., send an email, post to Slack, etc.)
